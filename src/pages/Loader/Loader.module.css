@@ -1,0 +1,48 @@
+.file_item {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.file_header {
+  margin-bottom: 10px;
+}
+
+.file_size {
+  font-size: 10px;
+  color: #818181;
+}
+
+.progress_bar {
+  width: 100%;
+  height: 3px;
+  background-color: #e5e7eb;
+  border-radius: 10000px;
+  overflow: hidden;
+}
+
+.progress_fill {
+  height: 100%;
+  background-color: rgb(29, 29, 29);
+  border-radius: inherit;
+}
+
+.button {
+  padding: 10px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
+
+.button:disabled {
+  background-color: #aaaaaa;
+  cursor: not-allowed;
+}
